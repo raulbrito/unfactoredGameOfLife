@@ -39,7 +39,7 @@ public class LifeTest {
 			"X.X";
 		Game game = new Game(grid);
 
-		assertThat(game.isAlive(0, 0), is(false));
+		assertThat(game.isAlive(0, 0), is(true));
 		assertThat(game.isAlive(0, 2), is(true));
 		assertThat(game.isAlive(2, 0), is(true));
 		assertThat(game.isAlive(2, 2), is(true));
